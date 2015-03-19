@@ -15,6 +15,7 @@ import (
 
 var (
 	templateDirectory = os.Args[1]
+	destFile          = os.Args[2]
 )
 
 func init() {
@@ -34,7 +35,7 @@ func main() {
 		panic(err)
 	}
 
-	f, err := os.Create("out.js")
+	f, err := os.Create(destFile)
 	if err != nil {
 		panic(err)
 	}
@@ -132,7 +133,7 @@ func FuncReplace(js soyjs.JSWriter, args []ast.Node) {
 }
 
 func FuncSlice(js soyjs.JSWriter, args []ast.Node) {
-	js.Write(args[0], ".slice(", args[1], ")")
+	js.Write(args[0], ".slice(", args[1])
 
 	if len(args) > 2 {
 		js.Write(", ", args[2])
