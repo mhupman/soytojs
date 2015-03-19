@@ -73,7 +73,6 @@ func InjectSoyJSFuncs() {
 	soyjs.Funcs["lcountryName"] = externalJSFunc("lcountryName", 2)
 	soyjs.Funcs["llocaleName"] = externalJSFunc("llocaleName", 2)
 	soyjs.Funcs["lregionName"] = externalJSFunc("lregionName", 3)
-
 	soyjs.Funcs["substring"] = soyjs.Func{FuncSubstring, []int{2, 3}}
 	soyjs.Funcs["sameDay"] = externalJSFunc("sameDay", 2)
 	soyjs.Funcs["sameYear"] = externalJSFunc("sameYear", 2)
