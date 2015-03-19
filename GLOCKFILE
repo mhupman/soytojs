@@ -1,0 +1,17 @@
+code.google.com/p/gogoprotobuf dc9b8350fb4568b6562900df872672f378242552
+github.com/cactus/go-statsd-client 5b5607a786a6be31226ca2063e49695712aebc6d
+github.com/codegangsta/inject 346a984957aa24276ebc5e7b16b3ac6a50fe8138
+github.com/codegangsta/martini 50f2d3f9d7eebef98b1a5dcf29dad72c66e918a7
+github.com/go-gorp/gorp c87af80f3cc5036b55b83d77171e156791085e2e
+github.com/go-sql-driver/mysql 7094cf0331ed6bde3cd75aa5d1da0e7764b526c9
+github.com/golang/protobuf 380d2d0c0fb62b1360d2eaed75a31a74c6c08ccb
+github.com/robfig/gettext 70ae4ecdbd8fdc00a0a65d2c2bbe55245ded2fe0
+github.com/robfig/go-cache 9fc39e0dbf62c034ec4e45e6120fc69433a3ec51
+github.com/robfig/soy 2f4d6c0f5776b2c1b5ac7a52d05182eb01085662
+github.com/xtgo/slug 7f0bc5e44f1308ac5ce878d28ea1802a55c4f850
+github.com/yext/errgo 7f28413f927adced39d3f45e09490ad6fd15bd95
+github.com/yext/glog bf30e26ba1c0e0a09b990851d269fbfde81d0128
+github.com/yext/i18n 774b91f3cf12707353379cc717865acb257f2b1e
+golang.org/x/text 985ee5acfaf1ff6712c7c99438752f8e09416ccb
+gopkg.in/fsnotify.v0 bb1fe4e5fe00d8b38cd961dee40851bc37567df2
+gopkg.in/yaml.v1 b0c168ac0cf9493da1f9bb76c34b26ffef940b4a
